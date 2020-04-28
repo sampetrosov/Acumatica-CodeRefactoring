@@ -53,8 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CstSOOrderEntryExtCust1.cs" />
-    <Compile Include="CstSOOrderEntryExtCust2.cs" />
+    <Compile Include="SOOrderEntryExtFeaturePrint.cs" />
+    <Compile Include="CstSOOrderEntryExtFeatureRedirect.cs" />
     <Compile Include="CstSOSetupMaintExt.cs" />
     <Compile Include="DAC\CstSOOrderExt.cs" />
     <Compile Include="DAC\CstSOOrderExt2.cs" />

@@ -8,7 +8,7 @@ namespace CodeRefactoringTechnique.DAC
     {
         public static bool IsActive()
         {
-            return SOSetupSlot.Values[0];
+            return SOSetupSlot.IsPrintFeatureEnabled;
         }
 
         #region CstSomeField

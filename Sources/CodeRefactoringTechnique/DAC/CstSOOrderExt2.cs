@@ -8,7 +8,7 @@ namespace CodeRefactoringTechnique.DAC
     {
         public static bool IsActive()
         {
-            return SOSetupSlot.Values[1];
+            return SOSetupSlot.IsRedirectFeatureEnabled;
         }
 
         #region CstSomeField
